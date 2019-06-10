@@ -1,49 +1,90 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Selectors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Nunito:400,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      body {
+        font-family: "Nunito", sans-serif;
+        color: #616161;
+        /* padding: 40px 0; */
+      }
 
-<head>
-	<title>Selectors</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/style.css">
-	<style>
-		body {
-			font-family: 'Nunito', sans-serif;
-			color: #616161;
-			padding: 40px 0;
-		}
+      h1 {
+        text-align: center;
+      }
 
-		h1 {
-			text-align: center;
-		}
+      ul,
+      section {
+        list-style: none;
+        width: 50%;
+        margin: auto;
+        padding: 4rem;
+      }
 
-		ul {
-			list-style: none;
-			width: 50%;
-			margin: auto;
-		}
+      li,
+      div {
+        border-bottom: 1px dotted #40918c;
+        padding: 15px 10px;
+      }
+    </style>
+  </head>
 
-		li {
-			border-bottom: 1px dotted #40918c;
-			padding: 15px 10px;
-		}
-	</style>
-</head>
+  <body>
+    <nav>
+      <a href="index.html#item-8">Daniel</a>
+      <a href="index.html#item-9">Barros</a>
+      <a href="index.html#item-10">Website</a>
+    </nav>
+    <section>
+      <h1>Main heading</h1>
+      <p class="intro">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam autem
+        nulla sapiente accusantium esse perspiciatis ut voluptate eaque modi
+        ullam fuga nemo corrupti id odio praesentium facilis pariatur itaque
+        magni, aperiam quo incidunt tenetur quae libero. Voluptatem accusamus
+        tempore vitae quibusdam obcaecati sint harum. Hic deleniti iste
+        perferendis aliquid illo.
+      </p>
+      <ul class="d-loads">
+        <li>
+          <a href="http://downloads/gallery.jpg" class="jpg" title="- JPG"
+            >Download</a
+          >
+        </li>
+        <li>
+          <a href="http://downloads/gallery.zip" class="zip" title="- ZIP"
+            >Download</a
+          >
+        </li>
+      </ul>
 
-<body>
-	<h1>My List of Items</h1>
-	<ul>
-		<li>Item 1</li>
-		<li>Item 2 <span>&check;</span></li>
-		<li>Item 3</li>
-		<li>Item 4</li>
-		<li>Item 5</li>
-		<li>Item 6 <span>&check;</span></li>
-		<li></li>
-		<li>Item 8</li>
-		<li>Item 9</li>
-		<li>Item 10</li>
-	</ul>
-</body>
-
+      <div>Row 1</div>
+      <div>Row 2</div>
+      <div>Row 3</div>
+      <h1>A new heading</h1>
+      <div>Row 4</div>
+      <div>Row 5</div>
+      <div>Row 6</div>
+    </section>
+    <hr />
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li>Item 5</li>
+      <li>Item 6</li>
+      <li>Item 7</li>
+      <li id="item-8">Item 8</li>
+      <li id="item-9">Item 9</li>
+      <li id="item-10">Item 10</li>
+    </ul>
+  </body>
 </html>
